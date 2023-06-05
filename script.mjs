@@ -3945,11 +3945,11 @@ const genre4 = createGenrePreview(4);
 const genre5 = createGenrePreview(5);
 
 writeFileSync("./previews.json", JSON.stringify(preview, null, 2));
-writeFileSync("./genres/1.json", JSON.stringify(genre1, null, 2));
-writeFileSync("./genres/2.json", JSON.stringify(genre2, null, 2));
-writeFileSync("./genres/3.json", JSON.stringify(genre3, null, 2));
-writeFileSync("./genres/4.json", JSON.stringify(genre4, null, 2));
-writeFileSync("./genres/5.json", JSON.stringify(genre5, null, 2));
+writeFileSync("./genre/1.json", JSON.stringify(genre1, null, 2));
+writeFileSync("./genre/2.json", JSON.stringify(genre2, null, 2));
+writeFileSync("./genre/3.json", JSON.stringify(genre3, null, 2));
+writeFileSync("./genre/4.json", JSON.stringify(genre4, null, 2));
+writeFileSync("./genre/5.json", JSON.stringify(genre5, null, 2));
 
 for (const {
   actors,
